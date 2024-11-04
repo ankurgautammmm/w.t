@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>HTML Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            float: left;
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .left-section {
+            background-color: yellow;
+        }
+
+        .right-section {
+            background-color: gray;
+            color: white;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-section">
+        <h2>HTML LINKS</h2>
+        <ul>
+            <li><a href="#">Link Colors</a></li>
+            <li><a href="#">Image Link</a></li>
+            <li><a href="#">Email Links</a></li>
+            <li><a href="#">Link Targets</a></li>
+            <li><a href="#">Download Files link</a></li>
+        </ul>
+    </div>
+
+    <div class="right-section">
+        <h2>The default color of these links are:</h2>
+        <p>Active link: <span style="color: red;">red</span></p>
+        <p>Unvisited link: <span style="color: blue;">blue</span></p>
+        <p>Visited link: <span style="color: purple;">purple</span></p>
+        <p>We can also change the color of active, visited, unvisited links using CSS.</p>
+    </div>
+</body>
+</html>
